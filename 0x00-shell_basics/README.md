@@ -1,1 +1,1 @@
-My first readme
+My first long format command script
