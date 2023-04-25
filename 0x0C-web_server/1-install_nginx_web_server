@@ -3,9 +3,9 @@
 # Nginx should be listening on port 80
 # Serves a page that would return 
 # A Hello World string
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install nginx -y
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
 
 # allowing nginx on firewall
 ufw allow 'Nginx HTTP'
