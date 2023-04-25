@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Script configures a new ubuntu machine by installing
 # Sets Nginx to listen on port 80
-# finally serves a page that would return a Hello World string
+# finally serves a page that would 
+# return a Hello World string
 
 sudo apt-get  update -y
 sudo apt-get install nginx -y
