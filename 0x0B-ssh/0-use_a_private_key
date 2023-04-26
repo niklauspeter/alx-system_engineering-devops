@@ -1,0 +1,5 @@
+#!/usr/bin/env/bash
+# script allows user to connect to serer using private key
+# user name is ubuntu
+
+ssh -i ~/.ssh/school ubuntu@52.91.124.219 -y
