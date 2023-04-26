@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script allows user to create RSA pair key of 4096 bits, private key name school, passphrase betty
+ssh-keygen -b 4096 -f school -N betty
