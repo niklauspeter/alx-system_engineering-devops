@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script adds sql backup, compresses the sql databases to tar.gz archive
+mysqldump --all-databases -u root -p "$1" > backup.sql
+tar -cvzf "$(date +%d-%m-%Y).tar.gz" backup.sql
